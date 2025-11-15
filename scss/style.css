@@ -1,1 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.button-basic {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1E90FF;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
