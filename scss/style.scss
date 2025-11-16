@@ -3,6 +3,8 @@
 
 body {
   font-family: 'Lexend', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -17,9 +19,15 @@ ul {
 ul li a {
   display: block;
   color: white;
-  padding: 14px 16px;
+  padding: 15px 20px;
   text-decoration: none;
 }
+
+ul li a.active {
+  background-color: black;
+  color:white;
+}
+
 ul li a:hover {
   background-color: white;
   color:$theme-color;
